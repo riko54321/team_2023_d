@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Yamada/Scenes/west.unity
+    guid: f12bd2a73fec3754281ac4d77c9d839b
   m_configObjects: {}
