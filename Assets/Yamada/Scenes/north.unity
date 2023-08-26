@@ -372,7 +372,6 @@ GameObject:
   - component: {fileID: 800120081}
   - component: {fileID: 800120080}
   - component: {fileID: 800120079}
-  - component: {fileID: 800120078}
   m_Layer: 5
   m_Name: right
   m_TagString: Untagged
@@ -400,18 +399,6 @@ RectTransform:
   m_AnchoredPosition: {x: 96.6, y: -133}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &800120078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800120076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee17e363a9839eb40a5c024974990ae4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &800120079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -456,7 +443,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 800120078}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: right, Assembly-CSharp
         m_MethodName: SwitchScene
         m_Mode: 1
