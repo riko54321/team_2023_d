@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ItemGet : MonoBehaviour
 {
+    public ItemList itemList;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,5 +20,6 @@ public class ItemGet : MonoBehaviour
     public void OnClickItem()
     {
         this.gameObject.SetActive(false);
+        itemList.addItem(this.gameObject.name);
     }
 }
