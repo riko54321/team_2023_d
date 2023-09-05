@@ -1,90 +1,51 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ItemList : MonoBehaviour
 {
-    List<string> itemList = new List<string>();//string型のListを定義
-    [SerializeField]GameObject item1, item2, item3;
-    int itemNum;
-    Sprite sprite;
-     Image image; 
-    // Start is called before the first frame update
+    [SerializeField] private List<GameObject> itemList = new List<GameObject>(); //GameObject型のListを定義
+
+    [SerializeField] private GameObject item1, item2, item3;
+    [System.NonSerialized] public int itemCount;
+    private Image image1, image2, image3;
+
     void Start()
     {
-        itemNum = 0;
+        image1 = item1.GetComponent<Image>();
+        image2 = item2.GetComponent<Image>();
+        image3 = item3.GetComponent<Image>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public void addItem(GameObject gottenItem){
 
-    public void addItem(string itemName){
-        itemList.Add(itemName);
+        itemList.Add(gottenItem);
+
         for(int i = 0; i < itemList.Count; i++)
         {
             Debug.Log(itemList[i]);
         }
-        if (itemNum == 0){
-            if (itemName == "red"){
-            sprite = Resources.Load<Sprite>("red");
-            image = item1.GetComponent<Image>();
-            image.sprite = sprite;
-            itemNum++;
-            }
-            if (itemName == "blue"){
-            sprite = Resources.Load<Sprite>("blue");
-            image = item1.GetComponent<Image>();
-            image.sprite = sprite;
-            itemNum++;
-            }
-            if (itemName == "yellow"){
-            sprite = Resources.Load<Sprite>("yellow");
-            image = item1.GetComponent<Image>();
-            image.sprite = sprite;
-            itemNum++;
-            }
-        } else if (itemNum == 1){
-            if (itemName == "red"){
-            sprite = Resources.Load<Sprite>("red");
-            image = item2.GetComponent<Image>();
-            image.sprite = sprite;
-            itemNum++;
-            }
-            if (itemName == "blue"){
-            sprite = Resources.Load<Sprite>("blue");
-            image = item2.GetComponent<Image>();
-            image.sprite = sprite;
-            itemNum++;
-            }
-            if (itemName == "yellow"){
-            sprite = Resources.Load<Sprite>("yellow");
-            image = item2.GetComponent<Image>();
-            image.sprite = sprite;
-            itemNum++;
-            }
-        } else if (itemNum == 2){
-            if (itemName == "red"){
-            sprite = Resources.Load<Sprite>("red");
-            image = item3.GetComponent<Image>();
-            image.sprite = sprite;
-            itemNum++;
-            }
-            if (itemName == "blue"){
-            sprite = Resources.Load<Sprite>("blue");
-            image = item3.GetComponent<Image>();
-            image.sprite = sprite;
-            itemNum++;
-            }
-            if (itemName == "yellow"){
-            sprite = Resources.Load<Sprite>("yellow");
-            image = item3.GetComponent<Image>();
-            image.sprite = sprite;
-            itemNum++;
-            }
+
+        if (itemCount == 0)
+        {
+            itemList[0] = gottenItem;
+            image1.sprite = gottenItem.GetComponent<Image>().sprite;
+            itemCount++;
         }
+        else if (itemCount == 1)
+        {
+            itemList[1] = gottenItem;
+            image2.sprite = gottenItem.GetComponent<Image>().sprite;
+            itemCount++;
+        }
+        else if (itemCount == 2)
+        {
+            itemList[2] = gottenItem;
+            image3.sprite = gottenItem.GetComponent<Image>().sprite;
+            itemCount++;
+        }
+
     } 
 }
