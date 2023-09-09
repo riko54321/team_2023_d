@@ -22,8 +22,9 @@ public class Text : MonoBehaviour
     {   
         if (itemList.itemCount >= 3)
         {
-             this.gameObject.SetActive(true);
-        }
+            this.gameObject.SetActive(true);
 
+            Debug.Log("active");
+        }
     }
 }
