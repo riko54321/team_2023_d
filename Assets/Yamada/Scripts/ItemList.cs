@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ItemList : MonoBehaviour
 {
@@ -11,12 +12,16 @@ public class ItemList : MonoBehaviour
     [SerializeField] private GameObject item1, item2, item3;
     [System.NonSerialized] public int itemCount;
     private Image image1, image2, image3;
+    public GameObject TextMP;
 
     void Start()
     {
         image1 = item1.GetComponent<Image>();
         image2 = item2.GetComponent<Image>();
         image3 = item3.GetComponent<Image>();
+
+        TextMP = GameObject.Find("ItemLimit");
+        TextMP.SetActive(false);
     }
 
     public void addItem(GameObject gottenItem){
@@ -45,6 +50,9 @@ public class ItemList : MonoBehaviour
             itemList[2] = gottenItem;
             image3.sprite = gottenItem.GetComponent<Image>().sprite;
             itemCount++;
+
+            TextMP.SetActive(true);
+            Debug.Log("active");
         }
 
     } 

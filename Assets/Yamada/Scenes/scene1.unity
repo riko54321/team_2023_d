@@ -1422,6 +1422,7 @@ MonoBehaviour:
   item1: {fileID: 197810383}
   item2: {fileID: 1231980131}
   item3: {fileID: 1251984865}
+  TextMP: {fileID: 1454212805}
 --- !u!4 &785901036
 Transform:
   m_ObjectHideFlags: 0
@@ -1904,7 +1905,7 @@ GameObject:
   - component: {fileID: 1454212807}
   - component: {fileID: 1454212809}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ItemLimit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
