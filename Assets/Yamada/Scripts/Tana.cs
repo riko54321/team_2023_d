@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tannsu : MonoBehaviour
+public class Tana : MonoBehaviour
 {
-    [SerializeField]GameObject tannsuPanel;
+    [SerializeField]GameObject tanaPanel;
     // Start is called before the first frame update
     void Start()
     {
-        //tannsuPanel.SetActive(false);
+        //dresserPanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -17,8 +17,8 @@ public class Tannsu : MonoBehaviour
         
     }
     
-    public void OnClickTannsu()
+    public void OnClickTana()
     {
-        tannsuPanel.SetActive(true);
+        tanaPanel.SetActive(true);
     }
 }
