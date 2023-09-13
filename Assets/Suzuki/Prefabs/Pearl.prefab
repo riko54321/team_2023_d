@@ -144,3 +144,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cam: {fileID: 3772102242685346377, guid: 2a16d65d85116b3409fed457f95aef17, type: 3}
+  nailListObj: {fileID: 5566785968930178444, guid: b9cec6feb238c594582d6ab3e7eda3f8, type: 3}

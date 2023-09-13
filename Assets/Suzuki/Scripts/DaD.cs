@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.NetworkInformation;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -18,9 +19,14 @@ public class DaD : MonoBehaviour
     //接触先のオブジェクトのスプライト
     private SpriteRenderer targetSpriteRenderer;
 
-private void Start()
+    public GameObject nailListObj;
+    private NailList nailList;
+
+    private void Start()
     {
         initialPosition = gameObject.transform.position;
+
+        nailList = nailListObj.GetComponent<NailList>();
     }
 
     private void OnMouseDrag()
@@ -67,15 +73,18 @@ private void Start()
         }
         else
         {
-            //接触先のオブジェクトのスプライトを接触元のオブジェクトのスプライトに変更
-            targetSpriteRenderer.sprite = mySpriteRenderer.sprite;//SpriteRenderer画像の情報だけ出してきたやつ
-            
-            //接触元のオブジェクトのスプライトを接触先のオブジェクトのスプライトに変更
-            mySpriteRenderer.sprite = targetSpriteRenderer.sprite;
+            switch (this.gameObject.tag)
+            {
+                case "Pink":
+                    targetSpriteRenderer.sprite = nailList.nailColors[0];
+                    break;
+
+                case "Blue":
+                    targetSpriteRenderer.sprite = nailList.nailColors[1];
+                    break;
+            }
         }
        
-        
-
     }
 
     private void OnTriggerEnter2D(Collider2D other)//丸と四角が重なったとき

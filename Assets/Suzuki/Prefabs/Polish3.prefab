@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4717871412701521475}
   m_Layer: 0
   m_Name: Polish3
-  m_TagString: Untagged
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7a8a28d871dbc05439cb7ea28c7e1a99, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 37688ac186fb1654fad8447313f2d577, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,18 +118,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0019530207, y: -0.11044681}
+  m_Offset: {x: -0.015764877, y: -0.066421606}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.5, y: 4.64}
+    oldSize: {x: 12, y: 12}
     newSize: {x: 0.5, y: 0.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 1
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25790438, y: 0.2898811}
+  m_Size: {x: 0.16827276, y: 0.189252}
   m_EdgeRadius: 0
 --- !u!114 &4717871412701521475
 MonoBehaviour:
@@ -144,3 +144,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cam: {fileID: 3772102242685346377, guid: 2a16d65d85116b3409fed457f95aef17, type: 3}
+  nailListObj: {fileID: 5566785968930178444, guid: b9cec6feb238c594582d6ab3e7eda3f8, type: 3}
