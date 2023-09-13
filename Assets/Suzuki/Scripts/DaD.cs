@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DaD : MonoBehaviour
@@ -37,10 +38,9 @@ private void Start()
             targetSpriteRenderer = targetObject.GetComponent<SpriteRenderer>();
             //接触元のオブジェクトのスプライトを取得
             mySpriteRenderer = gameObject.GetComponent<SpriteRenderer>();
-            //接触先のオブジェクトのスプライトを接触元のオブジェクトのスプライトに変更
-            targetObject.GetComponent<SpriteRenderer>().sprite = mySpriteRenderer.sprite;//SpriteRenderer画像の情報だけ出してきたやつ
-            //接触元のオブジェクトのスプライトを接触先のオブジェクトのスプライトに変更
-            gameObject.GetComponent<SpriteRenderer>().sprite = targetSpriteRenderer.sprite;
+
+            NailChange();
+            
             Debug.Log(targetSpriteRenderer.name);
             Debug.Log(targetSpriteRenderer.name);
             
@@ -48,6 +48,34 @@ private void Start()
         
         //初期位置に戻す処理
         SetInitialPosition();
+    }
+
+    private void NailChange()
+    {
+        if (this.gameObject.tag == "Parts")
+        {
+            Debug.Log("parts");
+
+            Transform childTransform = targetObject.transform.GetChild(0);
+            targetObject = childTransform.gameObject;
+
+            targetSpriteRenderer = targetObject.GetComponent<SpriteRenderer>();
+
+            Debug.Log(targetSpriteRenderer);
+
+            targetSpriteRenderer.sprite = mySpriteRenderer.sprite;
+        }
+        else
+        {
+            //接触先のオブジェクトのスプライトを接触元のオブジェクトのスプライトに変更
+            targetSpriteRenderer.sprite = mySpriteRenderer.sprite;//SpriteRenderer画像の情報だけ出してきたやつ
+            
+            //接触元のオブジェクトのスプライトを接触先のオブジェクトのスプライトに変更
+            mySpriteRenderer.sprite = targetSpriteRenderer.sprite;
+        }
+       
+        
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)//丸と四角が重なったとき
