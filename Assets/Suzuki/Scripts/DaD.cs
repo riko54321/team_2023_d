@@ -19,14 +19,13 @@ public class DaD : MonoBehaviour
     //接触先のオブジェクトのスプライト
     private SpriteRenderer targetSpriteRenderer;
 
-    public GameObject nailListObj;
-    private NailList nailList;
+
 
     private void Start()
     {
         initialPosition = gameObject.transform.position;
 
-        nailList = nailListObj.GetComponent<NailList>();
+      
     }
 
     private void OnMouseDrag()
@@ -76,11 +75,11 @@ public class DaD : MonoBehaviour
             switch (this.gameObject.tag)
             {
                 case "Pink":
-                    targetSpriteRenderer.sprite = nailList.nailColors[0];
+                   targetSpriteRenderer.color = new Color32(214, 188, 192, 255);
                     break;
 
                 case "Blue":
-                    targetSpriteRenderer.sprite = nailList.nailColors[1];
+                    targetSpriteRenderer.color = new Color32(148, 171, 231, 255);
                     break;
             }
         }
