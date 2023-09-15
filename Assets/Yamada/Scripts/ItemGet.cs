@@ -6,12 +6,17 @@ public class ItemGet : MonoBehaviour
 {
     public ItemList itemList;
 
+    public AudioSource audioSource;
+    public AudioClip se1;
+
     public void OnClickItem()
     {
         if (itemList.itemCount < 3)
         {
             this.gameObject.SetActive(false);
             itemList.addItem(this.gameObject);
+
+            audioSource.PlayOneShot(se1);
         }
         else
         {
