@@ -1562,7 +1562,7 @@ PrefabInstance:
     - target: {fileID: 6534939817667265030, guid: 038c9a4efb0c5404aaf9820f1174ac6f, type: 3}
       propertyPath: nailListObj
       value: 
-      objectReference: {fileID: 2007111851}
+      objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: 038c9a4efb0c5404aaf9820f1174ac6f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.018194921
@@ -2987,11 +2987,6 @@ Transform:
   - {fileID: 763175790}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2007111851 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8737096779773338980, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-  m_PrefabInstance: {fileID: 6216444433976122210}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2109682446
 GameObject:
   m_ObjectHideFlags: 0
@@ -3160,7 +3155,7 @@ PrefabInstance:
     - target: {fileID: 1150250737646774638, guid: 92edd8af79fb32844b2f72f28f8d6eae, type: 3}
       propertyPath: nailListObj
       value: 
-      objectReference: {fileID: 2007111851}
+      objectReference: {fileID: 0}
     - target: {fileID: 4443974338590002842, guid: 92edd8af79fb32844b2f72f28f8d6eae, type: 3}
       propertyPath: m_Size.y
       value: 0.19758508
@@ -3229,7 +3224,7 @@ PrefabInstance:
     - target: {fileID: 142043436765921895, guid: ec888368559bd6f46a93f384fe9c73f1, type: 3}
       propertyPath: nailListObj
       value: 
-      objectReference: {fileID: 2007111851}
+      objectReference: {fileID: 0}
     - target: {fileID: 6411900288400096324, guid: ec888368559bd6f46a93f384fe9c73f1, type: 3}
       propertyPath: m_SortingOrder
       value: 10
@@ -3291,75 +3286,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec888368559bd6f46a93f384fe9c73f1, type: 3}
---- !u!1001 &6216444433976122210
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1826713219228029820, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.08604814
-      objectReference: {fileID: 0}
-    - target: {fileID: 1826713219228029820, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.2396383
-      objectReference: {fileID: 0}
-    - target: {fileID: 1826713219228029820, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.06587168
-      objectReference: {fileID: 0}
-    - target: {fileID: 1826713219228029820, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1826713219228029820, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1826713219228029820, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1826713219228029820, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1826713219228029820, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1826713219228029820, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1826713219228029820, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6961173741418374544, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-      propertyPath: nailColors.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6961173741418374544, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-      propertyPath: nailColors.Array.data[0]
-      value: 
-      objectReference: {fileID: -9095717837082945937, guid: cc7e331fbc311b74fa28e829f7d730ef, type: 3}
-    - target: {fileID: 6961173741418374544, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-      propertyPath: nailColors.Array.data[1]
-      value: 
-      objectReference: {fileID: 3625043607559282579, guid: c0420b662f9167d4482f384cdfad462d, type: 3}
-    - target: {fileID: 8737096779773338980, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
-      propertyPath: m_Name
-      value: NailList
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 389e207a201e16646ba3eaf2a3f2458c, type: 3}
 --- !u!1001 &7470753089093489746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3439,4 +3365,3 @@ SceneRoots:
   - {fileID: 1570010471}
   - {fileID: 1060979648}
   - {fileID: 1004160260}
-  - {fileID: 6216444433976122210}
