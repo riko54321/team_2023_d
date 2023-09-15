@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 3551640655245771086}
   - component: {fileID: 6534939817667265030}
   m_Layer: 0
-  m_Name: Polish2
-  m_TagString: Untagged
+  m_Name: Pearl
+  m_TagString: Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 254749006151876147}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: -1.1725, y: 1.9947, z: 0}
   m_LocalScale: {x: 3.5, y: 4.64, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -75,12 +75,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7a8a28d871dbc05439cb7ea28c7e1a99, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3fe929544d7b93c4daa2f0220be57e77, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 1.1700085, y: 0.49773362}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -118,18 +118,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0030538142, y: -0.07461849}
+  m_Offset: {x: 0.007560581, y: 0.00017084926}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.5, y: 4.64}
-    newSize: {x: 0.5, y: 0.5}
+    oldSize: {x: 12.8, y: 7.2}
+    newSize: {x: 1.1700085, y: 0.49773362}
     adaptiveTilingThreshold: 0.5
     drawMode: 1
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.26777893, y: 0.20684496}
+  m_Size: {x: 0.13257542, y: 0.09352772}
   m_EdgeRadius: 0
 --- !u!114 &6534939817667265030
 MonoBehaviour:
