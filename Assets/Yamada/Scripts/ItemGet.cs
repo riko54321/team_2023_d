@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class ItemGet : MonoBehaviour
 {
@@ -22,6 +23,9 @@ public class ItemGet : MonoBehaviour
         {
             Debug.Log("これ以上アイテムを拾えません");
             //UIに反映したい場合はこの中に処理を書きます
+
+            Destroy(this.gameObject.GetComponent<EventTrigger>());
+            Destroy(this.gameObject.GetComponent<ItemGet>());
         }
     }
 }
