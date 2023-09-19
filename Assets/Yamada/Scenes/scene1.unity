@@ -4825,6 +4825,7 @@ GameObject:
   - component: {fileID: 1411851676}
   - component: {fileID: 1411851675}
   - component: {fileID: 1411851674}
+  - component: {fileID: 1411851678}
   m_Layer: 0
   m_Name: DoorImage
   m_TagString: Untagged
@@ -4856,6 +4857,18 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 8300000, guid: 197a20d2fa2dc884894f11e4911a401d, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1411851678}
+          m_TargetAssemblyTypeName: Door, Assembly-CSharp
+          m_MethodName: OnClickDoor
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -4973,6 +4986,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1411851678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411851673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f40e4bb57b24c2e4d8598313bd9caeac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1454212805
 GameObject:
   m_ObjectHideFlags: 0
