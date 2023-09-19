@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 2666421397487953453}
   - component: {fileID: 4443974338590002842}
   - component: {fileID: 1150250737646774638}
+  - component: {fileID: 2110433342614127065}
+  - component: {fileID: 1378261502746459327}
   m_Layer: 0
   m_Name: Polish3
   m_TagString: Untagged
@@ -80,7 +82,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 19.500046, y: 19.500046}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -118,18 +120,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0030538142, y: 0.0028898343}
+  m_Offset: {x: -0.6882591, y: 0.2834046}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 12, y: 12}
-    newSize: {x: 0.5, y: 0.5}
+    newSize: {x: 19.500046, y: 19.500046}
     adaptiveTilingThreshold: 0.5
     drawMode: 1
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.26777893, y: 0.3618616}
+  m_Size: {x: 6.640932, y: 13.2689495}
   m_EdgeRadius: 0
 --- !u!114 &1150250737646774638
 MonoBehaviour:
@@ -144,4 +146,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cam: {fileID: 7087204076454740421, guid: a162254a0b249f348a54b6d424d3a95f, type: 3}
-  nailListObj: {fileID: 0}
+--- !u!114 &2110433342614127065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236630310892142942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7890b6e58058884c80728bd1ecbb597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemList: {fileID: 0}
+--- !u!114 &1378261502746459327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236630310892142942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2110433342614127065}
+          m_TargetAssemblyTypeName: ItemGet, Assembly-CSharp
+          m_MethodName: OnClickItem
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

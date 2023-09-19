@@ -19,17 +19,16 @@ public class DaD : MonoBehaviour
     //接触先のオブジェクトのスプライト
     private SpriteRenderer targetSpriteRenderer;
 
-
+    public static bool isDecorating;
 
     private void Start()
     {
         initialPosition = gameObject.transform.position;
-
-      
     }
 
     private void OnMouseDrag()
     {
+        //isDecoratingはシーン遷移時にいじる if(isDecorating == true)
         transform.position = (Vector2)_cam.ScreenToWorldPoint(Input.mousePosition);
     }
 
