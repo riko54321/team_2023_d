@@ -740,6 +740,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pearl 8
       objectReference: {fileID: 0}
+    - target: {fileID: 5762749372283022127, guid: c2d233b098e2aaf4eb6ab4ff2fe66679, type: 3}
+      propertyPath: se1
+      value: 
+      objectReference: {fileID: 8300000, guid: 9cf96281909a7e54eae00ebe6c42be38, type: 3}
+    - target: {fileID: 5762749372283022127, guid: c2d233b098e2aaf4eb6ab4ff2fe66679, type: 3}
+      propertyPath: itemList
+      value: 
+      objectReference: {fileID: 785901035}
+    - target: {fileID: 5762749372283022127, guid: c2d233b098e2aaf4eb6ab4ff2fe66679, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1779870135}
     - target: {fileID: 8277128713357947454, guid: c2d233b098e2aaf4eb6ab4ff2fe66679, type: 3}
       propertyPath: m_LocalScale.x
       value: 212.5
@@ -2446,6 +2458,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pearl 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5762749372283022127, guid: b9b52b1f84649a143ba9417bb7f1f163, type: 3}
+      propertyPath: se1
+      value: 
+      objectReference: {fileID: 8300000, guid: 9cf96281909a7e54eae00ebe6c42be38, type: 3}
+    - target: {fileID: 5762749372283022127, guid: b9b52b1f84649a143ba9417bb7f1f163, type: 3}
+      propertyPath: itemList
+      value: 
+      objectReference: {fileID: 785901035}
+    - target: {fileID: 5762749372283022127, guid: b9b52b1f84649a143ba9417bb7f1f163, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1779870135}
     - target: {fileID: 8277128713357947454, guid: b9b52b1f84649a143ba9417bb7f1f163, type: 3}
       propertyPath: m_LocalScale.x
       value: 212.5
@@ -4094,6 +4118,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pearl 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5762749372283022127, guid: aeadedabeb6658446970227549f1c675, type: 3}
+      propertyPath: se1
+      value: 
+      objectReference: {fileID: 8300000, guid: 9cf96281909a7e54eae00ebe6c42be38, type: 3}
+    - target: {fileID: 5762749372283022127, guid: aeadedabeb6658446970227549f1c675, type: 3}
+      propertyPath: itemList
+      value: 
+      objectReference: {fileID: 785901035}
+    - target: {fileID: 5762749372283022127, guid: aeadedabeb6658446970227549f1c675, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1779870135}
     - target: {fileID: 8277128713357947454, guid: aeadedabeb6658446970227549f1c675, type: 3}
       propertyPath: m_LocalScale.x
       value: 212.5
@@ -4308,6 +4344,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pearl 9
       objectReference: {fileID: 0}
+    - target: {fileID: 5762749372283022127, guid: 40b42a2ac4796e647ab0b533fdd0c753, type: 3}
+      propertyPath: se1
+      value: 
+      objectReference: {fileID: 8300000, guid: 9cf96281909a7e54eae00ebe6c42be38, type: 3}
+    - target: {fileID: 5762749372283022127, guid: 40b42a2ac4796e647ab0b533fdd0c753, type: 3}
+      propertyPath: itemList
+      value: 
+      objectReference: {fileID: 785901035}
+    - target: {fileID: 5762749372283022127, guid: 40b42a2ac4796e647ab0b533fdd0c753, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1779870135}
     - target: {fileID: 8277128713357947454, guid: 40b42a2ac4796e647ab0b533fdd0c753, type: 3}
       propertyPath: m_LocalScale.x
       value: 212.5
@@ -6081,6 +6129,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pearl 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5762749372283022127, guid: be4b6ebf0e9f7844fa79596b614b0a5c, type: 3}
+      propertyPath: se1
+      value: 
+      objectReference: {fileID: 8300000, guid: 9cf96281909a7e54eae00ebe6c42be38, type: 3}
+    - target: {fileID: 5762749372283022127, guid: be4b6ebf0e9f7844fa79596b614b0a5c, type: 3}
+      propertyPath: itemList
+      value: 
+      objectReference: {fileID: 785901035}
+    - target: {fileID: 5762749372283022127, guid: be4b6ebf0e9f7844fa79596b614b0a5c, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1779870135}
     - target: {fileID: 8277128713357947454, guid: be4b6ebf0e9f7844fa79596b614b0a5c, type: 3}
       propertyPath: m_LocalScale.x
       value: 212.5
