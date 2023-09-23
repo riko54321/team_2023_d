@@ -19,6 +19,7 @@ public class Clear : MonoBehaviour
     
     public void OnClick()
     {
-        SceneManager.LoadScene("Clear");
+         SoundManager.Instance.PlaySE(SESoundData.SE.Complete);
+
     }
 }
