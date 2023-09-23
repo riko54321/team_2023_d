@@ -7880,7 +7880,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 652152229}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -8111,7 +8111,6 @@ GameObject:
   - component: {fileID: 2083928213}
   - component: {fileID: 2083928212}
   - component: {fileID: 2083928215}
-  - component: {fileID: 2083928216}
   - component: {fileID: 2083928217}
   m_Layer: 5
   m_Name: Title
@@ -8258,23 +8257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d88b0497eda94cf4cb1394c20a45327c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2083928216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2083928210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaf23fa07ec277c4986e779f8d44feb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  seAudioSource: {fileID: 0}
-  seSoundDatas: []
-  masterVolume: 1
-  bgmMasterVolume: 1
-  seMasterVolume: 1
 --- !u!114 &2083928217
 MonoBehaviour:
   m_ObjectHideFlags: 0
