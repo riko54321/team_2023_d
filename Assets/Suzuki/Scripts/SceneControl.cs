@@ -10,7 +10,7 @@ public class SceneControl : MonoBehaviour
          SceneManager.LoadScene("TitleScene2");
         }
 
-        public void Start()
+ public void Starts()
     {
          SceneManager.LoadScene("scene1");
         }

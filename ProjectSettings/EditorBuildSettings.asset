@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Nagayoshi/Scenes/TitleScene2.unity
     guid: 9715d50cc16e08244aa9317ed6612098
-  - enabled: 0
+  - enabled: 1
     path: Assets/Yamada/Scenes/scene1.unity
     guid: 05da31d26927aef42be9093df90b672a
   m_configObjects: {}
