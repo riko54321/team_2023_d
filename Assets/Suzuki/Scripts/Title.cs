@@ -19,7 +19,7 @@ public class Title : MonoBehaviour
 
     public void OnClick()
     {
-        SoundManager.Instance.PlaySE(SESoundData.SE.TitleSe);
-        SceneManager.LoadScene("title");
+        SoundManager.Instance.PlaySE(SESoundData.SE.Click);
+        SceneManager.LoadScene("TitleScene2");
     }
 }

@@ -5,10 +5,8 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    [SerializeField] AudioSource bgmAudioSource;
     [SerializeField] AudioSource seAudioSource;
 
-    [SerializeField] List<BGMSoundData> bgmSoundDatas;
     [SerializeField] List<SESoundData> seSoundDatas;
 
     public float masterVolume = 1;
@@ -30,14 +28,6 @@ public class SoundManager : MonoBehaviour
         }
     }
 
-    public void PlayBGM(BGMSoundData.BGM bgm)
-    {
-        BGMSoundData data = bgmSoundDatas.Find(data => data.bgm == bgm);
-        bgmAudioSource.clip = data.audioClip;
-        bgmAudioSource.volume = data.volume * bgmMasterVolume * masterVolume;
-        bgmAudioSource.Play();
-    }
-
 
     public void PlaySE(SESoundData.SE se)
     {
@@ -48,22 +38,7 @@ public class SoundManager : MonoBehaviour
 
 }
 
-[System.Serializable]
-public class BGMSoundData
-{
-    public enum BGM
-    {
-        TitleBgm,
-        Collect,
-        DecorationBgm,
-        Clear, // これがラベルになる
-    }
 
-    public BGM bgm;
-    public AudioClip audioClip;
-    [Range(0, 1)]
-    public float volume = 1;
-}
 
 [System.Serializable]
 public class SESoundData
@@ -71,9 +46,7 @@ public class SESoundData
     public enum SE
     {
         Click,
-        DecorationSe,
-        Complete,
-        TitleSe, // これがラベルになる
+        DecorationSe, // これがラベルになる
     }
 
     public SE se;
