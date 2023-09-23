@@ -5407,7 +5407,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8277128713357947454, guid: b9b52b1f84649a143ba9417bb7f1f163, type: 3}
   m_PrefabInstance: {fileID: 568435023}
   m_PrefabAsset: {fileID: 0}
-
 --- !u!1 &1393603274
 GameObject:
   m_ObjectHideFlags: 0
@@ -7245,6 +7244,10 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 1779870135}
+    - target: {fileID: 6534939817667265030, guid: c6e96f8dd9e849e4497dc2f76d9b75c1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: c6e96f8dd9e849e4497dc2f76d9b75c1, type: 3}
       propertyPath: m_LocalScale.x
       value: 212.5
@@ -8906,3 +8909,4 @@ SceneRoots:
   - {fileID: 1991015872}
   - {fileID: 832633624}
   - {fileID: 1779870136}
+  - {fileID: 1393603277}
