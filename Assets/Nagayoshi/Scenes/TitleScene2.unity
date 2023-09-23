@@ -400,7 +400,7 @@ GameObject:
   - component: {fileID: 970218691}
   - component: {fileID: 970218694}
   m_Layer: 5
-  m_Name: Start
+  m_Name: Starts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -472,7 +472,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 970218694}
         m_TargetAssemblyTypeName: SceneControl, Assembly-CSharp
-        m_MethodName: Start
+        m_MethodName: Starts
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -723,7 +723,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start
+  m_Text: Starts
 --- !u!222 &1159591951
 CanvasRenderer:
   m_ObjectHideFlags: 0
