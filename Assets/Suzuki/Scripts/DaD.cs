@@ -79,13 +79,37 @@ public class DaD : MonoBehaviour
         {
             switch (this.gameObject.tag)
             {
-                case "Pink":
-                   targetSpriteRenderer.color = new Color32(214, 188, 192, 255);
+                case "8491B7":
+                   targetSpriteRenderer.color = new Color32(132, 145, 183, 255);
                     break;
 
-                case "Blue":
-                    targetSpriteRenderer.color = new Color32(148, 171, 231, 255);
+                case "A2C5D1":
+                    targetSpriteRenderer.color = new Color32(162, 197, 209, 255);
                     break;
+
+                case "BD9DBF":
+                    targetSpriteRenderer.color = new Color32(189, 157, 191, 255);
+                    break;
+
+                case "C29286":
+                    targetSpriteRenderer.color = new Color32(194, 146, 134, 255);
+                    break;
+
+                case "D8B9A2":
+                    targetSpriteRenderer.color = new Color32(216, 185, 162, 255);
+                    break;
+
+                case "D58F97":
+                    targetSpriteRenderer.color = new Color32(213, 143, 151, 255);
+                    break;
+
+                case "DDA5B6":
+                    targetSpriteRenderer.color = new Color32(221, 165, 182, 255);
+                    break;   
+
+                case "DFCF8C":
+                    targetSpriteRenderer.color = new Color32(223, 207, 140, 255);
+                    break; 
             }
         }
        
