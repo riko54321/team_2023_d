@@ -4562,7 +4562,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &970831899
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7344,27 +7344,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2614045916133517108, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_Size.x
-      value: 3.2162387
+      value: 0.47737226
       objectReference: {fileID: 0}
     - target: {fileID: 2614045916133517108, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_Size.y
-      value: 1.3682208
+      value: 0.36540994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
+      propertyPath: m_Size.x
+      value: 0.22518721
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
+      propertyPath: m_Size.y
+      value: 0.14168584
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.01281403
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0127946455
       objectReference: {fileID: 0}
     - target: {fileID: 3551640655245771086, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 3.2162387
+      value: 0.47737226
       objectReference: {fileID: 0}
     - target: {fileID: 3551640655245771086, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 1.3682208
+      value: 0.36540994
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 212.5
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 290
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_LocalScale.z
