@@ -1781,12 +1781,28 @@ PrefabInstance:
       value: 27.750177
       objectReference: {fileID: 0}
     - target: {fileID: 4443974338590002842, guid: 3fa84861f41e9224ebf5f8fc20ee8bd3, type: 3}
+      propertyPath: m_Size.x
+      value: 8.160344
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443974338590002842, guid: 3fa84861f41e9224ebf5f8fc20ee8bd3, type: 3}
+      propertyPath: m_Size.y
+      value: 9.167257
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443974338590002842, guid: 3fa84861f41e9224ebf5f8fc20ee8bd3, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.8904462
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443974338590002842, guid: 3fa84861f41e9224ebf5f8fc20ee8bd3, type: 3}
+      propertyPath: m_Offset.y
+      value: -2.7710335
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443974338590002842, guid: 3fa84861f41e9224ebf5f8fc20ee8bd3, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 6.969976
+      value: 27.750177
       objectReference: {fileID: 0}
     - target: {fileID: 4443974338590002842, guid: 3fa84861f41e9224ebf5f8fc20ee8bd3, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 6.969976
+      value: 27.750177
       objectReference: {fileID: 0}
     - target: {fileID: 6037783991099038440, guid: 3fa84861f41e9224ebf5f8fc20ee8bd3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4598,7 +4614,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &970831899
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5351,6 +5367,30 @@ PrefabInstance:
     - target: {fileID: 7477599881501185923, guid: 4424119087f9e8d43aff8bafa31c3c46, type: 3}
       propertyPath: m_Name
       value: Polish1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584716271238278943, guid: 4424119087f9e8d43aff8bafa31c3c46, type: 3}
+      propertyPath: m_Size.x
+      value: 11.752586
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584716271238278943, guid: 4424119087f9e8d43aff8bafa31c3c46, type: 3}
+      propertyPath: m_Size.y
+      value: 13.160585
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584716271238278943, guid: 4424119087f9e8d43aff8bafa31c3c46, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.35437107
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584716271238278943, guid: 4424119087f9e8d43aff8bafa31c3c46, type: 3}
+      propertyPath: m_Offset.y
+      value: -4.1461687
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584716271238278943, guid: 4424119087f9e8d43aff8bafa31c3c46, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 26.812449
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584716271238278943, guid: 4424119087f9e8d43aff8bafa31c3c46, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 26.812449
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6284,7 +6324,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1660123962
 MonoBehaviour:
   m_ObjectHideFlags: 0
