@@ -289,9 +289,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'left
-
-'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -722,7 +720,7 @@ Transform:
   m_GameObject: {fileID: 89224957}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.7525, y: -12.6109, z: 97}
+  m_LocalPosition: {x: -30.7525, y: -12.55, z: 97}
   m_LocalScale: {x: 1.1963052, y: 1.1963052, z: 1.1963052}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1023,7 +1021,7 @@ MonoBehaviour:
           m_MethodName: PlayOneShot
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 197a20d2fa2dc884894f11e4911a401d, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: c7945a8d0e800914c80b12b8691fbbe2, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -1313,8 +1311,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 94, y: -175}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 94, y: -160}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &260028693
 MonoBehaviour:
@@ -1377,7 +1375,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 197a20d2fa2dc884894f11e4911a401d, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: c7945a8d0e800914c80b12b8691fbbe2, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1404,8 +1402,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: e23e970f999fb8542bb4eca7777ea70c, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1528,7 +1526,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: close
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1641,8 +1639,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -93, y: -175}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -93, y: -160}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &316110154
 MonoBehaviour:
@@ -1705,7 +1703,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 197a20d2fa2dc884894f11e4911a401d, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: c7945a8d0e800914c80b12b8691fbbe2, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1732,8 +1730,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 427a0ee034456e540b3dacf17cedb9af, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1783,12 +1781,28 @@ PrefabInstance:
       value: 27.750177
       objectReference: {fileID: 0}
     - target: {fileID: 4443974338590002842, guid: 3fa84861f41e9224ebf5f8fc20ee8bd3, type: 3}
+      propertyPath: m_Size.x
+      value: 8.160344
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443974338590002842, guid: 3fa84861f41e9224ebf5f8fc20ee8bd3, type: 3}
+      propertyPath: m_Size.y
+      value: 9.167257
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443974338590002842, guid: 3fa84861f41e9224ebf5f8fc20ee8bd3, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.8904462
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443974338590002842, guid: 3fa84861f41e9224ebf5f8fc20ee8bd3, type: 3}
+      propertyPath: m_Offset.y
+      value: -2.7710335
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443974338590002842, guid: 3fa84861f41e9224ebf5f8fc20ee8bd3, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 6.969976
+      value: 27.750177
       objectReference: {fileID: 0}
     - target: {fileID: 4443974338590002842, guid: 3fa84861f41e9224ebf5f8fc20ee8bd3, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 6.969976
+      value: 27.750177
       objectReference: {fileID: 0}
     - target: {fileID: 6037783991099038440, guid: 3fa84861f41e9224ebf5f8fc20ee8bd3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2564,7 +2578,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 292, y: 191}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &593406974
 MonoBehaviour:
@@ -2627,7 +2641,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 197a20d2fa2dc884894f11e4911a401d, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: c7945a8d0e800914c80b12b8691fbbe2, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2654,8 +2668,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 25d6c274bab575d409703379b1df3823, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3127,7 +3141,7 @@ MonoBehaviour:
           m_MethodName: PlayOneShot
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 197a20d2fa2dc884894f11e4911a401d, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: c7945a8d0e800914c80b12b8691fbbe2, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -3166,7 +3180,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.024314374, y: -0.052102506}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3177,7 +3191,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.94, y: 0.67}
+  m_Size: {x: 0.78021985, y: 0.56579494}
   m_EdgeRadius: 0
 --- !u!114 &708588929
 MonoBehaviour:
@@ -3228,8 +3242,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -112}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: -90}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &712380573
 MonoBehaviour:
@@ -3292,7 +3306,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 197a20d2fa2dc884894f11e4911a401d, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: c7945a8d0e800914c80b12b8691fbbe2, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3319,8 +3333,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 25d6c274bab575d409703379b1df3823, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3398,8 +3412,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b255bab243f244041b247041d55ea343, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: a5fb7409a850f1d45be9347ced7a9133, type: 3}
+  m_Color: {r: 1, g: 0.9685534, b: 0.9685534, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3418,8 +3432,8 @@ Transform:
   m_GameObject: {fileID: 724812487}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -36.3, y: -14.29, z: 96.04}
-  m_LocalScale: {x: 0.52269334, y: 0.52269334, z: 0.52269334}
+  m_LocalPosition: {x: -36.05, y: -14.01, z: 96.04}
+  m_LocalScale: {x: 0.8115975, y: 0.8115975, z: 0.8115975}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3458,7 +3472,7 @@ MonoBehaviour:
           m_MethodName: PlayOneShot
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 197a20d2fa2dc884894f11e4911a401d, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: c7945a8d0e800914c80b12b8691fbbe2, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -3497,18 +3511,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.30662286, y: -0.25087214}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 10.11, y: 13}
+    oldSize: {x: 12, y: 12}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10.11, y: 13}
+  m_Size: {x: 6.486293, y: 8.261294}
   m_EdgeRadius: 0
 --- !u!114 &724812492
 MonoBehaviour:
@@ -3580,7 +3594,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: close
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3919,7 +3933,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 64860df78fc2a514492ed20099e4a247, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e1725d76a2d61fe44926c3c841b918de, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -4032,6 +4046,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pearl 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2614045916133517108, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_Size.x
+      value: 1.3810326
+      objectReference: {fileID: 0}
+    - target: {fileID: 2614045916133517108, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_Size.y
+      value: 1.1737952
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_Size.x
+      value: 0.089714125
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_Size.y
+      value: 0.07066839
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.021371491
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.009353899
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.3863629
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.1182414
+      objectReference: {fileID: 0}
     - target: {fileID: 5762749372283022127, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
       propertyPath: se1
       value: 
@@ -4046,7 +4092,7 @@ PrefabInstance:
       objectReference: {fileID: 1779870135}
     - target: {fileID: 8277128713357947454, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 212.5
+      value: 290
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
       propertyPath: m_LocalScale.y
@@ -4058,11 +4104,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 190
+      value: 190.77
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.78
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4094,6 +4140,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8277128713357947454, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4224,7 +4274,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 292, y: 191}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &913694144
 MonoBehaviour:
@@ -4287,7 +4337,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 197a20d2fa2dc884894f11e4911a401d, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: c7945a8d0e800914c80b12b8691fbbe2, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -4314,8 +4364,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c50a62bbab7adab4a92a180e77547e23, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4470,7 +4520,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: close
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4928,7 +4978,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1187953634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5165,7 +5215,7 @@ Transform:
   m_GameObject: {fileID: 1249499532}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -12.6, z: 97}
+  m_LocalPosition: {x: -0.016, y: -12.616, z: 97}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5317,6 +5367,30 @@ PrefabInstance:
     - target: {fileID: 7477599881501185923, guid: 4424119087f9e8d43aff8bafa31c3c46, type: 3}
       propertyPath: m_Name
       value: Polish1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584716271238278943, guid: 4424119087f9e8d43aff8bafa31c3c46, type: 3}
+      propertyPath: m_Size.x
+      value: 11.752586
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584716271238278943, guid: 4424119087f9e8d43aff8bafa31c3c46, type: 3}
+      propertyPath: m_Size.y
+      value: 13.160585
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584716271238278943, guid: 4424119087f9e8d43aff8bafa31c3c46, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.35437107
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584716271238278943, guid: 4424119087f9e8d43aff8bafa31c3c46, type: 3}
+      propertyPath: m_Offset.y
+      value: -4.1461687
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584716271238278943, guid: 4424119087f9e8d43aff8bafa31c3c46, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 26.812449
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584716271238278943, guid: 4424119087f9e8d43aff8bafa31c3c46, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 26.812449
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5562,11 +5636,11 @@ Transform:
   m_GameObject: {fileID: 1411851673}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.2793, y: 3.2282, z: 96.04}
+  m_LocalPosition: {x: -36.9793, y: 3.1282, z: 0}
   m_LocalScale: {x: 0.4346641, y: 0.4346641, z: 0.4346641}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1929005131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1411851678
 MonoBehaviour:
@@ -5764,8 +5838,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -112}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: -90}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1470677864
 MonoBehaviour:
@@ -5828,7 +5902,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 197a20d2fa2dc884894f11e4911a401d, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: c7945a8d0e800914c80b12b8691fbbe2, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -5855,8 +5929,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 25d6c274bab575d409703379b1df3823, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6350,8 +6424,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -112}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: -90}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1726451239
 MonoBehaviour:
@@ -6414,7 +6488,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 197a20d2fa2dc884894f11e4911a401d, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: c7945a8d0e800914c80b12b8691fbbe2, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -6441,8 +6515,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 25d6c274bab575d409703379b1df3823, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6811,7 +6885,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: close
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6945,9 +7019,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'right
-
-'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7219,7 +7291,8 @@ Transform:
   m_LocalPosition: {x: -0.3, y: 0.1, z: 96.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1411851677}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1929005132
@@ -7269,7 +7342,7 @@ MonoBehaviour:
           m_MethodName: PlayOneShot
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 197a20d2fa2dc884894f11e4911a401d, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: c7945a8d0e800914c80b12b8691fbbe2, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -7343,31 +7416,47 @@ PrefabInstance:
       objectReference: {fileID: 1779870135}
     - target: {fileID: 254749006151876147, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_Name
-      value: Pearl 1
+      value: Ribbon
       objectReference: {fileID: 0}
     - target: {fileID: 2614045916133517108, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_Size.x
-      value: 3.2162387
+      value: 0.47737226
       objectReference: {fileID: 0}
     - target: {fileID: 2614045916133517108, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_Size.y
-      value: 1.3682208
+      value: 0.36540994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
+      propertyPath: m_Size.x
+      value: 0.22518721
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
+      propertyPath: m_Size.y
+      value: 0.14168584
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.01281403
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0127946455
       objectReference: {fileID: 0}
     - target: {fileID: 3551640655245771086, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 3.2162387
+      value: 0.47737226
       objectReference: {fileID: 0}
     - target: {fileID: 3551640655245771086, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 1.3682208
+      value: 0.36540994
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 212.5
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 290
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_LocalScale.z
@@ -7645,7 +7734,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: close
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7779,9 +7868,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'item
-
-'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7977,7 +8064,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2057937378
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8078,8 +8165,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -112}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: -90}
+  m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2069380358
 MonoBehaviour:
@@ -8142,7 +8229,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 197a20d2fa2dc884894f11e4911a401d, type: 3}
+          m_ObjectArgument: {fileID: 8300000, guid: c7945a8d0e800914c80b12b8691fbbe2, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -8169,8 +8256,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 25d6c274bab575d409703379b1df3823, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -8730,7 +8817,6 @@ SceneRoots:
   - {fileID: 1249499534}
   - {fileID: 89224959}
   - {fileID: 831882137}
-  - {fileID: 1411851677}
   - {fileID: 1929005131}
   - {fileID: 708588926}
   - {fileID: 724812489}
