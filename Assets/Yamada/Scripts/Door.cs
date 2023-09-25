@@ -8,7 +8,7 @@ public class Door : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        DaD.isDecoration = false;
     }
 
     // Update is called once per frame
@@ -20,5 +20,6 @@ public class Door : MonoBehaviour
     public void OnClickDoor()
     {
         SceneManager.LoadScene("Decoration", LoadSceneMode.Single);
+        DaD.isDecoration = true;
     }
 }

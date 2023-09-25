@@ -18,6 +18,8 @@ public class DaD : MonoBehaviour
     private SpriteRenderer mySpriteRenderer;
     //接触先のオブジェクトのスプライト
     private SpriteRenderer targetSpriteRenderer;
+    //isDecorationというbool型の変数を宣言
+    public static bool isDecoration = false;
 
 
 
@@ -30,7 +32,10 @@ public class DaD : MonoBehaviour
 
     private void OnMouseDrag()
     {
-        transform.position = (Vector2)_cam.ScreenToWorldPoint(Input.mousePosition);
+        if (isDecoration == true)
+        {
+            transform.position = (Vector2)_cam.ScreenToWorldPoint(Input.mousePosition);
+        }
     }
 
     private void OnMouseUp()//マウスを押したとき
