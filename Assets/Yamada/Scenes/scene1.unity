@@ -3917,7 +3917,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 64860df78fc2a514492ed20099e4a247, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e1725d76a2d61fe44926c3c841b918de, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -4030,6 +4030,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pearl 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2614045916133517108, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_Size.x
+      value: 1.3810326
+      objectReference: {fileID: 0}
+    - target: {fileID: 2614045916133517108, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_Size.y
+      value: 1.1737952
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_Size.x
+      value: 0.089714125
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_Size.y
+      value: 0.07066839
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.021371491
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.009353899
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.3863629
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551640655245771086, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.1182414
+      objectReference: {fileID: 0}
     - target: {fileID: 5762749372283022127, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
       propertyPath: se1
       value: 
@@ -4044,7 +4076,7 @@ PrefabInstance:
       objectReference: {fileID: 1779870135}
     - target: {fileID: 8277128713357947454, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 212.5
+      value: 290
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
       propertyPath: m_LocalScale.y
@@ -4056,11 +4088,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 190
+      value: 190.77
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.78
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4092,6 +4124,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8277128713357947454, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8277128713357947454, guid: 477af646f8fb1d94f84c650735571f8d, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5163,7 +5199,7 @@ Transform:
   m_GameObject: {fileID: 1249499532}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -12.6, z: 97}
+  m_LocalPosition: {x: -0.016, y: -12.616, z: 97}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7340,7 +7376,7 @@ PrefabInstance:
       objectReference: {fileID: 1779870135}
     - target: {fileID: 254749006151876147, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_Name
-      value: Pearl 1
+      value: Ribbon
       objectReference: {fileID: 0}
     - target: {fileID: 2614045916133517108, guid: ea725817c179b424db953d22c9a98a4a, type: 3}
       propertyPath: m_Size.x
