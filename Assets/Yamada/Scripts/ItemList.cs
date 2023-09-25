@@ -36,19 +36,19 @@ public class ItemList : MonoBehaviour
         if (itemCount == 0)
         {
             itemList[0] = gottenItem;
-            image1.sprite = gottenItem.GetComponent<Image>().sprite;
+            image1.sprite = gottenItem.GetComponent<SpriteRenderer>().sprite;
             itemCount++;
         }
         else if (itemCount == 1)
         {
             itemList[1] = gottenItem;
-            image2.sprite = gottenItem.GetComponent<Image>().sprite;
+            image2.sprite = gottenItem.GetComponent<SpriteRenderer>().sprite;
             itemCount++;
         }
         else if (itemCount == 2)
         {
             itemList[2] = gottenItem;
-            image3.sprite = gottenItem.GetComponent<Image>().sprite;
+            image3.sprite = gottenItem.GetComponent<SpriteRenderer>().sprite;
             itemCount++;
 
             TextMP.SetActive(true);
