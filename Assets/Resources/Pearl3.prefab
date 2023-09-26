@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 9091550055628435888}
   - component: {fileID: 5762749372283022127}
   m_Layer: 0
-  m_Name: Pearl 6
+  m_Name: Pearl3
   m_TagString: Parts
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.1725, y: 1.9947, z: 0}
-  m_LocalScale: {x: 3.5, y: 4.64, z: 1}
+  m_LocalScale: {x: 100, y: 100, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,12 +77,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3fe929544d7b93c4daa2f0220be57e77, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7d3761844f0ec9d4b841050646e2bf18, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
-  m_Size: {x: 1.1700085, y: 0.49773362}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -120,18 +120,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.007560581, y: 0.00017084926}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 12.8, y: 7.2}
-    newSize: {x: 1.1700085, y: 0.49773362}
+    oldSize: {x: 12.8, y: 12.8}
+    newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 1
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.13257542, y: 0.09352772}
+  m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
 --- !u!114 &6534939817667265030
 MonoBehaviour:
@@ -189,4 +189,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemList: {fileID: 0}
   audioSource: {fileID: 0}
-  se1: {fileID: 0}
+  se1: {fileID: 8300000, guid: 8365dccb0c245a94683ed64d28dfa1bd, type: 3}
