@@ -701,11 +701,6 @@ Transform:
   - {fileID: 712544126}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &582090940 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 254749006151876147, guid: 038c9a4efb0c5404aaf9820f1174ac6f, type: 3}
-  m_PrefabInstance: {fileID: 1004160260}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &612990436
 GameObject:
   m_ObjectHideFlags: 0
@@ -8180,7 +8175,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 128039192}
+      - m_Target: {fileID: 1356025090}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -8192,7 +8187,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1991762903}
+      - m_Target: {fileID: 393005773}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -8204,7 +8199,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 582090940}
+      - m_Target: {fileID: 712544125}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -8439,11 +8434,6 @@ Transform:
   - {fileID: 763175790}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1991762903 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 236630310892142942, guid: 92edd8af79fb32844b2f72f28f8d6eae, type: 3}
-  m_PrefabInstance: {fileID: 151091453509886236}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2083928210
 GameObject:
   m_ObjectHideFlags: 0
@@ -8532,18 +8522,6 @@ MonoBehaviour:
       - m_Target: {fileID: 2083928215}
         m_TargetAssemblyTypeName: SceneControl, Assembly-CSharp
         m_MethodName: Title
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2083928217}
-        m_TargetAssemblyTypeName: Title, Assembly-CSharp
-        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

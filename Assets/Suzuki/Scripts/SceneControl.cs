@@ -7,14 +7,15 @@ public class SceneControl : MonoBehaviour
 {
    public void Title()
     {
-         SceneManager.LoadScene("TitleScene2");
-        }
+        ItemList.itemNames.Clear();
+
+        SoundManager.Instance.PlaySE(SESoundData.SE.Click);
+        SceneManager.LoadScene("TitleScene2");
+    }
 
  public void Starts()
     {
-         SceneManager.LoadScene("scene1");
-        }
-
- 
-        
+        SceneManager.LoadScene("scene1");
     }
+
+}
