@@ -7,7 +7,8 @@ using TMPro;
 
 public class ItemList : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> itemList = new List<GameObject>(); //GameObject型のListを定義
+    public List<GameObject> itemList = new List<GameObject>(); //GameObject型のListを定義
+    public static List<string> itemNames = new List<string>();
 
     [SerializeField] private GameObject item1, item2, item3;
     [System.NonSerialized] public int itemCount;
@@ -24,9 +25,7 @@ public class ItemList : MonoBehaviour
         TextMP.SetActive(false);
     }
 
-    public void addItem(GameObject gottenItem){
-
-        itemList.Add(gottenItem);
+    public void addItem(GameObject gottenItem){        
 
         for(int i = 0; i < itemList.Count; i++)
         {
@@ -35,19 +34,22 @@ public class ItemList : MonoBehaviour
 
         if (itemCount == 0)
         {
-            itemList[0] = gottenItem;
+            itemList.Add(gottenItem);
+            itemNames.Add(gottenItem.name);
             image1.sprite = gottenItem.GetComponent<SpriteRenderer>().sprite;
             itemCount++;
         }
         else if (itemCount == 1)
         {
-            itemList[1] = gottenItem;
+            itemList.Add(gottenItem);
+            itemNames.Add(gottenItem.name);
             image2.sprite = gottenItem.GetComponent<SpriteRenderer>().sprite;
             itemCount++;
         }
         else if (itemCount == 2)
         {
-            itemList[2] = gottenItem;
+            itemList.Add(gottenItem);
+            itemNames.Add(gottenItem.name);
             image3.sprite = gottenItem.GetComponent<SpriteRenderer>().sprite;
             itemCount++;
 

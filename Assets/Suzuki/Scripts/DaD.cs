@@ -25,9 +25,7 @@ public class DaD : MonoBehaviour
 
     private void Start()
     {
-        initialPosition = gameObject.transform.position;
-
-      
+        initialPosition = gameObject.transform.position;      
     }
 
     private void OnMouseDrag()

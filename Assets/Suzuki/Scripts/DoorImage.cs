@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class DoorImage : MonoBehaviour
@@ -18,6 +19,6 @@ public class DoorImage : MonoBehaviour
 
     public void OnClick()
     {
-        SoundManager.Instance.PlaySE(SESoundData.SE.Click);
+        SoundManager.Instance.PlaySE(SESoundData.SE.Click);        
     }
 }
